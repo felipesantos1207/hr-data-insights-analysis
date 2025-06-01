@@ -1,0 +1,9 @@
+-- List of employees terminated in the last 12 months
+
+SELECT
+department AS Department,
+COUNT(termination_date) AS Employee_dismissal
+FROM `polynomial-coda-457620-c7.hr.HR_Employee_dataset`
+where termination_date >='2024-05-24'
+Group by department
+order by Employee_dismissal,department;
