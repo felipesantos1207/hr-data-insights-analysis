@@ -1,0 +1,8 @@
+-- List of active employees by department
+SELECT
+department as Departament,
+COUNT(*) AS Total_employee
+FROM `polynomial-coda-457620-c7.hr.HR_Employee_dataset`
+WHERE termination_date IS NULL
+GROUP BY department
+ORDER BY department;
