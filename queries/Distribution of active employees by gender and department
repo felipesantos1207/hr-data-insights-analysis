@@ -1,0 +1,10 @@
+-- Distribution of active employees by gender and department
+
+SELECT
+gender AS Gender,
+department AS Department,
+count(*) AS Total
+FROM `polynomial-coda-457620-c7.hr.HR_Employee_dataset`
+where termination_date is null
+Group by department, gender
+order by gender, department;
