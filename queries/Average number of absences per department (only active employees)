@@ -1,0 +1,8 @@
+-- Average number of absences per department (only active employees)
+
+SELECT
+department AS Department,
+FORMAT('%0.2f',AVG(absences)) AS Average_Absences
+FROM `polynomial-coda-457620-c7.hr.HR_Employee_dataset`
+where termination_date is NULL
+Group by department
