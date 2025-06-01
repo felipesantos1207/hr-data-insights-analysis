@@ -1,0 +1,9 @@
+-- Employees with performance score three or below
+
+SELECT
+department as Department,
+count(*) AS Low_performance_employees
+FROM `polynomial-coda-457620-c7.hr.HR_Employee_dataset`
+where performance_score <= 3 and termination_date is null
+group by department
+order by department asc;
