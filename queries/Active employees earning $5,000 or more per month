@@ -1,0 +1,13 @@
+-- Active employees earning $5,000 or more per month
+
+SELECT
+first_name AS First_name,
+last_name AS Last_name,
+department as Department,
+job_title AS Job_title,
+salary AS Salary
+FROM `polynomial-coda-457620-c7.hr.HR_Employee_dataset`
+where termination_date is null 
+and salary >= 5000
+order by department;
+
