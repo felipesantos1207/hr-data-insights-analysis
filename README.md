@@ -35,3 +35,33 @@ Despite the limitations, valuable findings were identified, including:
 - Google BigQuery (SQL queries)
 - Google Sheets (data visualization and charts)
 - GitHub (version control and portfolio)
+
+---
+
+## 📊 Sample Analysis
+
+### 1. Active Employees by Department
+This chart shows the number of active employees in each department.
+
+https://github.com/felipesantos1207/hr-data-insights-analysis/blob/main/queries/active_employees_by_department%20.png
+
+---
+
+### 2. Average Salary by Department
+Comparison of average salaries across departments.
+
+https://github.com/felipesantos1207/hr-data-insights-analysis/blob/main/queries/avg_salary_by_department.png
+
+---
+
+### 3. Employees Terminated in the Last 12 Months
+Number of employee terminations per department in the past year.
+
+https://github.com/felipesantos1207/hr-data-insights-analysis/blob/main/queries/terminated_last_12_months.png
+
+---
+
+### 4. Employees with Performance Score 3 or Below
+Departments with employees rated with low performance.
+
+https://github.com/felipesantos1207/hr-data-insights-analysis/blob/main/queries/%20Employees%20with%20performance%20score%20three%20or%20below.png
