@@ -1,0 +1,8 @@
+-- Average performance score per department
+
+SELECT
+department AS Department,
+Format('%.2f',AVG(performance_score)) AS Performance_score
+FROM `polynomial-coda-457620-c7.hr.HR_Employee_dataset`
+Group by department
+order by 2 asc;
